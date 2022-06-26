@@ -1,0 +1,12 @@
+@import './fonts';
+@import './reset';
+
+@import './main-page';
+@import './header';
+@import './footer';
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
