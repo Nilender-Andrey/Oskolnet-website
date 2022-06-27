@@ -1,0 +1,28 @@
+$light-blue_color: #6984f0;
+$blue_color: #263057;
+
+%container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+%link {
+  font-family: 'Circe';
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #263057;
+}
+
+%button {
+  color: #fff;
+  border-radius: 30px;
+}
+
+@mixin options($w, $h, $bc, $fs) {
+  width: $w;
+  height: $h;
+  background-color: $bc;
+  font-size: $fs;
+}

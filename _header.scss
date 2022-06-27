@@ -1,0 +1,86 @@
+@import './templates';
+
+.header-container {
+  @extend %container;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 158px;
+  height: 95px;
+  margin-right: 26px;
+}
+.logo__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-list__item {
+  margin-right: 26px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav-list__link {
+  @extend %link;
+}
+
+.link-phone {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  grid-template-rows: 15px 17px;
+
+  grid-template-areas:
+    'link-phone-icon link-phone-number'
+    'link-phone-icon link-phone-label';
+
+  width: 172px;
+}
+
+.link-phone__icon {
+  grid-area: link-phone-icon;
+
+  width: 33px;
+  height: 29px;
+  margin-top: -4px;
+
+  background: url('../assets/icons/phone.svg') center no-repeat;
+}
+
+.link-phone__number {
+  grid-area: link-phone-number;
+
+  font-family: 'Circe';
+  font-size: 17px;
+  font-weight: 700;
+}
+.link-phone__label {
+  grid-area: link-phone-label;
+
+  font-size: 14px;
+  letter-spacing: 0.28em;
+}
+
+.nav-list__link-button {
+  @extend %link;
+  @extend %button;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.nav-list__link-button_color_light-blue {
+    @include options(172px, 34px, $light-blue_color, 15px);
+  }
+  &.nav-list__link-button_color_blue {
+    @include options(148px, 34px, $blue_color, 15px);
+  }
+}
