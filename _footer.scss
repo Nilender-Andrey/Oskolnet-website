@@ -1,0 +1,141 @@
+@import './templates';
+
+.footer {
+  @extend %container;
+
+  background: linear-gradient(136.49deg, #263057 25.34%, #1d1444 89.06%);
+  border-radius: 0 0 15px 15px;
+}
+.footer-container {
+  @extend %container-content;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 57px 80px 81px 37px;
+
+  grid-template-areas:
+    'f-nav  f-btns'
+    'f-nav  f-contacts'
+    '. .'
+    'f-info  f-info';
+
+  padding: 101px 0 55px;
+}
+
+.footer-nav {
+  grid-area: f-nav;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-self: start;
+  row-gap: 14px;
+
+  padding-top: 5px;
+}
+
+.footer-btns {
+  grid-area: f-btns;
+  display: flex;
+  gap: 20px;
+
+  padding-left: 109px;
+}
+
+.footer-contacts {
+  grid-area: f-contacts;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 400px;
+
+  padding-left: 119px;
+}
+
+.contacts-phone {
+  @extend %link;
+  display: flex;
+  align-items: center;
+
+  color: $white_color;
+}
+.contacts-phone__icon {
+  width: 12px;
+  height: 19px;
+
+  background: url('../assets/icons/phone_white.svg') center no-repeat;
+  background-size: contain;
+}
+.contacts-phone__number {
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 11px;
+}
+
+.contacts-phone__label {
+  font-size: 14px;
+  opacity: 0.5;
+  padding-left: 13px;
+}
+
+.footer-contacts__icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}
+
+.footer-nav__link {
+  @extend %link;
+  width: 33.33%;
+
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.footer-nav__link:nth-child(3n) {
+  padding-left: 55px;
+}
+
+.footer-btn__link-button {
+  @extend %link-button;
+
+  &.footer-btn__link-button_color_light-blue {
+    @include options(206px, 39px, $light-blue_color, 18px);
+  }
+  &.footer-btn__link-button_color_blue {
+    @include options(178px, 39px, $white_color, 18px);
+    color: $blue_color;
+  }
+}
+
+.footer-info {
+  grid-area: f-info;
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 70px;
+
+  color: #ffffff;
+  line-height: 140%;
+  opacity: 0.5;
+}
+
+.footer-info__logo {
+  width: 146px;
+  height: 18px;
+  opacity: 1;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.footer-info__company {
+  width: 200px;
+}
+
+.footer-info__info {
+  width: 100%;
+  max-width: 600px;
+}

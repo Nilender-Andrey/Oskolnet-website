@@ -1,7 +1,14 @@
 $light-blue_color: #6984f0;
 $blue_color: #263057;
+$white_color: #ffffff;
 
 %container {
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+%container-content {
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
@@ -15,7 +22,13 @@ $blue_color: #263057;
   color: #263057;
 }
 
-%button {
+%link-button {
+  @extend %link;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   color: #fff;
   border-radius: 30px;
 }

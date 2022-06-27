@@ -1,7 +1,13 @@
 @import './templates';
 
-.header-container {
+.header {
   @extend %container;
+  background-color: #fff;
+  border-radius: 15px 15px 0 0;
+}
+
+.header-container {
+  @extend %container-content;
   display: flex;
   align-items: center;
 }
@@ -70,12 +76,7 @@
 }
 
 .nav-list__link-button {
-  @extend %link;
-  @extend %button;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %link-button;
 
   &.nav-list__link-button_color_light-blue {
     @include options(172px, 34px, $light-blue_color, 15px);
