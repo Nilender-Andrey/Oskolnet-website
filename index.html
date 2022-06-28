@@ -12,7 +12,10 @@
 <body>
   <header class="header">
     <div class="header-container">
-      <div class="logo"><img class="logo__img" src="./assets/images/logo.png" alt="logo"></div>
+      <div class="logo">
+        <img class="logo__img" src="./assets/images/logo.png" alt="logo">
+      </div>
+
       <nav class="header-nav">
         <ul class="nav-list">
           <li class="nav-list__item">
@@ -44,6 +47,92 @@
       </nav>
     </div>
   </header>
+
+  <main class="main">
+    <section class="showcase">
+      <div class="showcase-container">
+        <h1 class="showcase__title">ИНТЕРНЕТ</h1>
+        <p class="showcase__text">на высокой скорости</p>
+        <a class="showcase__link-button" href="#!">Выбрать тариф</a>
+
+        <div class="showcase__img"></div>
+
+        <div class="showcase-slider">
+          <div class="showcase-slider__item showcase-slider__item_active"></div>
+          <div class="showcase-slider__item"></div>
+          <div class="showcase-slider__item"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tariffs">
+      <h2 class="tariffs__title">тарифы для дома</h2>
+
+      <div class="tariffs-container">
+        <div class="tariffs__services services">
+          <button class="services__btn services__btn_internet active">Интернет</button>
+          <button class="services__btn services__btn_cable">Интернет + Кабельное ТВ</button>
+          <button class="services__btn services__btn_smart">Интернет + Smart TV</button>
+          <button class="services__btn services__btn_telephony">Интернет + Телефония</button>
+        </div>
+
+        <div class="tariffs__options options">
+          <div class="options__item options__item_medium item-options">
+            <h5 class="item-options__title">Medium</h5>
+            <div class="item-options__speed">30 Мбит/с</div>
+            <div class="item-options__details">Подробнее</div>
+            <div class="item-options__price">300 <span>₽/мес</span></div>
+            <button class="item-options__btn">Подключить</button>
+          </div>
+
+          <div class="options__item options__item_total">
+            <h5 class="item-options__title">Total</h5>
+            <div class="item-options__speed">60 Мбит/с</div>
+            <div class="item-options__details">Подробнее</div>
+            <div class="item-options__price">450 <span>₽/мес</span></div>
+            <button class="item-options__btn">Подключить</button>
+          </div>
+
+          <div class="options__item options__item_energy active">
+            <h5 class="item-options__title">Energy</h5>
+            <div class="item-options__speed">100 Мбит/с</div>
+            <div class="item-options__details">Подробнее</div>
+            <div class="item-options__price">600 <span>₽/мес</span></div>
+            <button class="item-options__btn">Подключить</button>
+          </div>
+
+          <div class="options__item options__item_ultra">
+            <h5 class="item-options__title">Ultra</h5>
+            <div class="item-options__speed">200 Мбит/с</div>
+            <div class="item-options__details">Подробнее</div>
+            <div class="item-options__price">900 <span>₽/мес</span></div>
+            <button class="item-options__btn">Подключить</button>
+          </div>
+
+          <div class="options__item options__itemr_rush">
+            <h5 class="item-options__title">Rush</h5>
+            <div class="item-options__speed">300 Мбит/с</div>
+            <div class="item-options__details">Подробнее</div>
+            <div class="item-options__price">1100 <span>₽/мес</span></div>
+            <button class="item-options__btn">Подключить</button>
+          </div>
+        </div>
+
+        <div class="tariffs-slider">
+          <div class="tariffs-slider__item active"></div>
+          <div class="tariffs-slider__item"></div>
+          <div class="tariffs-slider__item"></div>
+        </div>
+
+        <a class="tariffs__link-button" href="#!">
+          Все тарифы
+        </a>
+
+      </div>
+
+
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="footer-container">

@@ -1,11 +1,15 @@
 $light-blue_color: #6984f0;
 $blue_color: #263057;
+
+$title_color: #253058;
 $white_color: #ffffff;
+$grey_color: #e5e5e5;
 
 %container {
   width: 100%;
   max-width: 1380px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 %container-content {
@@ -15,11 +19,7 @@ $white_color: #ffffff;
 }
 
 %link {
-  font-family: 'Circe';
   text-decoration: none;
-  font-weight: 400;
-  font-size: 18px;
-  color: #263057;
 }
 
 %link-button {
@@ -31,6 +31,27 @@ $white_color: #ffffff;
 
   color: #fff;
   border-radius: 30px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+%button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+%title {
+  font-size: 62px;
+  line-height: 88%;
+  font-weight: 700;
+  color: $title_color;
 }
 
 @mixin options($w, $h, $bc, $fs) {
