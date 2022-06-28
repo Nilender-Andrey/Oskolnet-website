@@ -165,24 +165,26 @@ table {
   border-spacing: 0;
 }
 
-.news, .about-company, .tariffs, .showcase, .footer, .header {
+.partners, .documents, .news, .about-company, .tariffs, .showcase, .footer, .header {
   width: 100%;
   max-width: 1380px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-.about-company__container, .tariffs-container, .showcase-container, .footer-container, .header-container {
+.partners__container, .documents__container, .news__container, .about-company__container, .tariffs-container, .showcase-container, .footer-container, .header-container {
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
 }
 
-.footer-nav__link, .contacts-phone, .nav-list__link, .news__link-button,
+.footer-nav__link, .contacts-phone, .nav-list__link, .documents__link-button,
+.news__link-button,
 .about-company__link-button, .tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link-button {
   text-decoration: none;
 }
 
+.documents__link-button,
 .news__link-button,
 .about-company__link-button, .tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link-button {
   display: flex;
@@ -191,6 +193,7 @@ table {
   color: #fff;
   border-radius: 30px;
 }
+.documents__link-button:hover,
 .news__link-button:hover,
 .about-company__link-button:hover, .tariffs__link-button:hover, .showcase__link-button:hover, .footer-btn__link-button:hover, .nav-list__link-button:hover {
   opacity: 0.8;
@@ -206,7 +209,7 @@ table {
   opacity: 0.8;
 }
 
-.news__title, .about-company__title, .item-options__title, .tariffs__title, .showcase__text, .showcase__title {
+.partners__title, .documents__title, .news__title, .about-company__title, .item-options__title, .tariffs__title, .showcase__text, .showcase__title {
   font-size: 62px;
   line-height: 88%;
   font-weight: 700;
@@ -330,24 +333,26 @@ table {
     flex-wrap: wrap;
   }
 }
-.news, .about-company, .tariffs, .showcase, .footer, .header {
+.partners, .documents, .news, .about-company, .tariffs, .showcase, .footer, .header {
   width: 100%;
   max-width: 1380px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-.about-company__container, .tariffs-container, .showcase-container, .footer-container, .header-container {
+.partners__container, .documents__container, .news__container, .about-company__container, .tariffs-container, .showcase-container, .footer-container, .header-container {
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
 }
 
-.footer-nav__link, .contacts-phone, .news__link-button,
+.footer-nav__link, .contacts-phone, .documents__link-button,
+.news__link-button,
 .about-company__link-button, .tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link, .nav-list__link-button {
   text-decoration: none;
 }
 
+.documents__link-button,
 .news__link-button,
 .about-company__link-button, .tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link-button {
   display: flex;
@@ -356,6 +361,7 @@ table {
   color: #fff;
   border-radius: 30px;
 }
+.documents__link-button:hover,
 .news__link-button:hover,
 .about-company__link-button:hover, .tariffs__link-button:hover, .showcase__link-button:hover, .footer-btn__link-button:hover, .nav-list__link-button:hover {
   opacity: 0.8;
@@ -371,7 +377,7 @@ table {
   opacity: 0.8;
 }
 
-.news__title, .about-company__title, .item-options__title, .tariffs__title, .showcase__text, .showcase__title {
+.partners__title, .documents__title, .news__title, .about-company__title, .item-options__title, .tariffs__title, .showcase__text, .showcase__title {
   font-size: 62px;
   line-height: 88%;
   font-weight: 700;
@@ -502,24 +508,26 @@ table {
   max-width: 600px;
 }
 
-.news, .about-company, .tariffs, .showcase, .header, .footer {
+.partners, .documents, .news, .about-company, .tariffs, .showcase, .header, .footer {
   width: 100%;
   max-width: 1380px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-.about-company__container, .tariffs-container, .showcase-container, .header-container, .footer-container {
+.partners__container, .documents__container, .news__container, .about-company__container, .tariffs-container, .showcase-container, .header-container, .footer-container {
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
 }
 
+.documents__link-button,
 .news__link-button,
 .about-company__link-button, .tariffs__link-button, .showcase__link-button, .nav-list__link, .nav-list__link-button, .contacts-phone, .footer-nav__link, .footer-btn__link-button {
   text-decoration: none;
 }
 
+.documents__link-button,
 .news__link-button,
 .about-company__link-button, .tariffs__link-button, .showcase__link-button, .nav-list__link-button, .footer-btn__link-button {
   display: flex;
@@ -528,6 +536,7 @@ table {
   color: #fff;
   border-radius: 30px;
 }
+.documents__link-button:hover,
 .news__link-button:hover,
 .about-company__link-button:hover, .tariffs__link-button:hover, .showcase__link-button:hover, .nav-list__link-button:hover, .footer-btn__link-button:hover {
   opacity: 0.8;
@@ -543,7 +552,7 @@ table {
   opacity: 0.8;
 }
 
-.news__title, .about-company__title, .item-options__title, .tariffs__title, .showcase__text, .showcase__title {
+.partners__title, .documents__title, .news__title, .about-company__title, .item-options__title, .tariffs__title, .showcase__text, .showcase__title {
   font-size: 62px;
   line-height: 88%;
   font-weight: 700;
@@ -557,7 +566,7 @@ table {
 
 .showcase-container {
   position: relative;
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   padding: 140px 0 48px 60px;
@@ -988,6 +997,7 @@ Section tariffs
   margin-bottom: 25px;
 }
 
+.documents__link-button,
 .news__link-button,
 .about-company__link-button {
   width: 250px;
@@ -1072,6 +1082,142 @@ Section tariffs
 }
 
 /* documents */
+.documents {
+  min-height: 459px;
+  background-color: #ffffff;
+}
+
+.documents__container {
+  padding: 63px 0 27px 0;
+}
+
+.documents__title {
+  margin-bottom: 51px;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.documents-list {
+  display: flex;
+  align-items: center;
+  min-height: 153px;
+  margin-bottom: 40px;
+  padding: 0px 37px;
+  background: #f1f2f4;
+  border-radius: 15px;
+}
+
+.documents-list__item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-right: 90px;
+}
+.documents-list__item:nth-child(2) {
+  margin-right: 112px;
+}
+.documents-list__item:last-child {
+  margin-right: 0;
+}
+
+.documents__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff url("../assets/icons/doc.svg") center no-repeat;
+}
+
+.documents__name {
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: #263057;
+}
+
+/* partners */
+.partners {
+  min-height: 380px;
+}
+
+.partners__container {
+  padding: 79px 0 27px 0;
+}
+
+.partners__title {
+  margin-bottom: 45px;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.partners-slider {
+  display: flex;
+  align-items: center;
+}
+
+.partners-slider__arrow {
+  width: 40px;
+  height: 40px;
+}
+.partners-slider__arrow.partners-slider__arrow_left {
+  background: url("../assets/icons/arrow_left.svg") center no-repeat;
+  margin-right: 10px;
+}
+.partners-slider__arrow.partners-slider__arrow_right {
+  background: url("../assets/icons/arrow_right.svg") center no-repeat;
+  margin-left: 10px;
+}
+
+.partners-slider__item {
+  display: flex;
+  justify-content: center;
+  width: 243px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 15px;
+  margin-right: 36px;
+}
+.partners-slider__item img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.partners-slider__item.partners-slider__item_smotroshka {
+  padding: 12px 25px 20px 20px;
+}
+.partners-slider__item.partners-slider__item_sberbank {
+  padding: 15px 19px 20px 14px;
+}
+.partners-slider__item.partners-slider__item_on-life {
+  padding: 19px 20px 20px 17px;
+}
+.partners-slider__item.partners-slider__play-room {
+  padding: 19px 22px 20px 20px;
+  margin-right: 0px;
+}
+
+.partners-slider-control {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin: 0 auto;
+  padding: 35px 0 45px;
+  height: 9px;
+  width: 50px;
+}
+
+.partners-slider-control__item {
+  width: 8px;
+  height: 8px;
+  background: rgba(38, 48, 87, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.partners-slider-control__item.active {
+  background-color: #6984f0;
+}
+
 * {
   box-sizing: border-box;
 }
