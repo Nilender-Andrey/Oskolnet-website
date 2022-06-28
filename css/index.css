@@ -165,45 +165,45 @@ table {
   border-spacing: 0;
 }
 
-.tariffs, .showcase, .footer, .header {
+.about-company, .tariffs, .showcase, .footer, .header {
   width: 100%;
   max-width: 1380px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-.tariffs-container, .showcase-container, .footer-container, .header-container {
+.about-company__container, .tariffs-container, .showcase-container, .footer-container, .header-container {
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
 }
 
-.footer-nav__link, .contacts-phone, .nav-list__link, .tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link-button {
+.footer-nav__link, .contacts-phone, .nav-list__link, .about-company__link-button, .tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link-button {
   text-decoration: none;
 }
 
-.tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link-button {
+.about-company__link-button, .tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link-button {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   border-radius: 30px;
 }
-.tariffs__link-button:hover, .showcase__link-button:hover, .footer-btn__link-button:hover, .nav-list__link-button:hover {
+.about-company__link-button:hover, .tariffs__link-button:hover, .showcase__link-button:hover, .footer-btn__link-button:hover, .nav-list__link-button:hover {
   opacity: 0.8;
 }
 
-.item-options__btn {
+.additional-services__btn, .item-options__btn {
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
 }
-.item-options__btn:hover {
+.additional-services__btn:hover, .item-options__btn:hover {
   opacity: 0.8;
 }
 
-.item-options__title, .tariffs__title, .showcase__text, .showcase__title {
+.about-company__title, .item-options__title, .tariffs__title, .showcase__text, .showcase__title {
   font-size: 62px;
   line-height: 88%;
   font-weight: 700;
@@ -327,45 +327,45 @@ table {
     flex-wrap: wrap;
   }
 }
-.tariffs, .showcase, .footer, .header {
+.about-company, .tariffs, .showcase, .footer, .header {
   width: 100%;
   max-width: 1380px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-.tariffs-container, .showcase-container, .footer-container, .header-container {
+.about-company__container, .tariffs-container, .showcase-container, .footer-container, .header-container {
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
 }
 
-.footer-nav__link, .contacts-phone, .tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link, .nav-list__link-button {
+.footer-nav__link, .contacts-phone, .about-company__link-button, .tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link, .nav-list__link-button {
   text-decoration: none;
 }
 
-.tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link-button {
+.about-company__link-button, .tariffs__link-button, .showcase__link-button, .footer-btn__link-button, .nav-list__link-button {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   border-radius: 30px;
 }
-.tariffs__link-button:hover, .showcase__link-button:hover, .footer-btn__link-button:hover, .nav-list__link-button:hover {
+.about-company__link-button:hover, .tariffs__link-button:hover, .showcase__link-button:hover, .footer-btn__link-button:hover, .nav-list__link-button:hover {
   opacity: 0.8;
 }
 
-.item-options__btn {
+.additional-services__btn, .item-options__btn {
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
 }
-.item-options__btn:hover {
+.additional-services__btn:hover, .item-options__btn:hover {
   opacity: 0.8;
 }
 
-.item-options__title, .tariffs__title, .showcase__text, .showcase__title {
+.about-company__title, .item-options__title, .tariffs__title, .showcase__text, .showcase__title {
   font-size: 62px;
   line-height: 88%;
   font-weight: 700;
@@ -496,45 +496,45 @@ table {
   max-width: 600px;
 }
 
-.tariffs, .showcase, .header, .footer {
+.about-company, .tariffs, .showcase, .header, .footer {
   width: 100%;
   max-width: 1380px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-.tariffs-container, .showcase-container, .header-container, .footer-container {
+.about-company__container, .tariffs-container, .showcase-container, .header-container, .footer-container {
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
 }
 
-.tariffs__link-button, .showcase__link-button, .nav-list__link, .nav-list__link-button, .contacts-phone, .footer-nav__link, .footer-btn__link-button {
+.about-company__link-button, .tariffs__link-button, .showcase__link-button, .nav-list__link, .nav-list__link-button, .contacts-phone, .footer-nav__link, .footer-btn__link-button {
   text-decoration: none;
 }
 
-.tariffs__link-button, .showcase__link-button, .nav-list__link-button, .footer-btn__link-button {
+.about-company__link-button, .tariffs__link-button, .showcase__link-button, .nav-list__link-button, .footer-btn__link-button {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   border-radius: 30px;
 }
-.tariffs__link-button:hover, .showcase__link-button:hover, .nav-list__link-button:hover, .footer-btn__link-button:hover {
+.about-company__link-button:hover, .tariffs__link-button:hover, .showcase__link-button:hover, .nav-list__link-button:hover, .footer-btn__link-button:hover {
   opacity: 0.8;
 }
 
-.item-options__btn {
+.additional-services__btn, .item-options__btn {
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
 }
-.item-options__btn:hover {
+.additional-services__btn:hover, .item-options__btn:hover {
   opacity: 0.8;
 }
 
-.item-options__title, .tariffs__title, .showcase__text, .showcase__title {
+.about-company__title, .item-options__title, .tariffs__title, .showcase__text, .showcase__title {
   font-size: 62px;
   line-height: 88%;
   font-weight: 700;
@@ -608,7 +608,7 @@ table {
 Section tariffs
 **/
 .tariffs {
-  padding: 62px 100px 48px;
+  padding: 62px 100px 32px;
 }
 
 .tariffs__title {
@@ -625,6 +625,7 @@ Section tariffs
   border-radius: 15px;
   height: 602px;
   padding: 52px 40px 23px 40px;
+  margin-bottom: 47px;
 }
 
 .services {
@@ -698,6 +699,7 @@ Section tariffs
   color: #263057;
 }
 .options__item.active {
+  position: relative;
   width: 228px;
   padding: 57px 19px 0 19px;
   color: #ffffff;
@@ -708,6 +710,21 @@ Section tariffs
 }
 .options__item.active .item-options__details::after {
   background: url("../assets/icons/carbon_popup_white.svg");
+}
+.options__item.active::before {
+  content: "ХИТ";
+  position: absolute;
+  top: 23px;
+  left: 18px;
+  width: 25px;
+  height: 18px;
+  padding: 2px 10px 0px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #263158;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 .item-options__title {
@@ -788,6 +805,183 @@ Section tariffs
 .tariffs__link-button {
   width: 264px;
   height: 45px;
+  background-color: #6984f0;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.additional-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  height: 200px;
+  padding: 22px 59px 27px 79px;
+  margin-bottom: 20px;
+  background: linear-gradient(92.37deg, #263057 29.38%, #1d1444 100.81%);
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  color: #ffffff;
+}
+.additional-services.additional-services_help {
+  justify-content: space-between;
+  gap: 0;
+  padding: 31px 59px 27px 79px;
+}
+.additional-services.additional-services__speed-test {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 26px;
+}
+
+.additional-services__title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 116%;
+}
+
+.additional-services__btn {
+  width: 221px;
+  height: 48px;
+  background-color: #6984f0;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 60px;
+}
+
+.additional-services__form {
+  display: flex;
+}
+
+.additional-services__input {
+  height: 49px;
+  width: 100%;
+  max-width: 390px;
+  padding: 0 0 0 25px;
+  margin-right: 19px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #263057;
+}
+
+.additional-services__input_name::-moz-placeholder {
+  background: url("../assets/icons/what_is_your_name.png") no-repeat;
+}
+
+.additional-services__input_name:-ms-input-placeholder {
+  background: url("../assets/icons/what_is_your_name.png") no-repeat;
+}
+
+.additional-services__input_name::placeholder {
+  background: url("../assets/icons/what_is_your_name.png") no-repeat;
+}
+
+.additional-services__input_phone::-moz-placeholder {
+  background: url("../assets/icons/+7 (___) ___-__-__ _.png") no-repeat;
+}
+
+.additional-services__input_phone:-ms-input-placeholder {
+  background: url("../assets/icons/+7 (___) ___-__-__ _.png") no-repeat;
+}
+
+.additional-services__input_phone::placeholder {
+  background: url("../assets/icons/+7 (___) ___-__-__ _.png") no-repeat;
+}
+
+.additional-services__input-agreement {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+.additional-services__input-agreement input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  background-color: #fff;
+  width: 13px;
+  height: 13px;
+  background-color: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  transform: translate(-12px, 0px);
+  display: grid;
+  place-content: center;
+}
+.additional-services__input-agreement input::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background-color: #ffffff;
+}
+.additional-services__input-agreement input:checked::before {
+  transform: scale(1);
+}
+
+.additional-services__icon_address {
+  flex: 0 0 54px;
+  height: 51px;
+  background: url("../assets/icons/pointer.svg") center no-repeat;
+  margin-right: 16px;
+}
+
+.additional-services__input_street {
+  max-width: 524px;
+  margin-right: 19px;
+  padding-left: 21px;
+}
+
+.additional-services__input-house {
+  max-width: 189px;
+  margin-right: 19px;
+  padding-left: 21px;
+}
+
+/** about-company **/
+.about-company {
+  height: 616px;
+  background: #ffffff;
+}
+
+.about-company__container {
+  padding: 76px 0;
+}
+
+.about-company__title {
+  margin-bottom: 47px;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-company__info {
+  display: flex;
+  justify-content: start;
+  gap: 45px;
+  padding-bottom: 54px;
+}
+
+.about-company__img {
+  flex: 0 1 364px;
+}
+
+.about-company__text {
+  padding-top: 28px;
+  max-width: 530px;
+  font-size: 18px;
+  line-height: 140%;
+  color: #263057;
+}
+.about-company__text p:first-child {
+  margin-bottom: 25px;
+}
+
+.about-company__link-button {
+  width: 250px;
+  height: 48px;
   background-color: #6984f0;
   font-size: 18px;
   margin: 0 auto;
