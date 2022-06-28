@@ -505,8 +505,99 @@ Section tariffs
   }
 }
 
+.news__link-button,
 .about-company__link-button {
   @extend %link-button;
   @include options(250px, 48px, $light-blue_color, 18px);
   margin: 0 auto;
 }
+
+/* news */
+
+.news {
+  @extend %container;
+
+  min-height: 774px;
+  padding: 102px 0 0 0;
+}
+.about-company__container {
+  @extend %container-content;
+}
+
+.news__title {
+  @extend %title;
+
+  margin-bottom: 35px;
+
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.news-list {
+  margin-bottom: 42px;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.news-list__item {
+  width: 380px;
+  height: 426px;
+
+  padding: 30px 31px 39px 32px;
+
+  background: #ffffff;
+  box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.news__preview {
+  width: 318px;
+  height: 171px;
+  margin-bottom: 27px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.news__date {
+  margin-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: $blue_color;
+}
+.news__info {
+  margin-bottom: 31px;
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: $blue_color;
+}
+
+.news__more {
+  position: relative;
+  text-decoration: none;
+  font-family: 'Manrope Medium';
+  font-size: 15px;
+  color: $light-blue_color;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: -14px;
+
+    width: 12px;
+    height: 8px;
+
+    background: url('../assets/icons/arrow.svg') center no-repeat;
+  }
+}
+
+/* documents */
