@@ -1,4 +1,4 @@
-@import './templates';
+@import './global';
 
 .header {
   @extend %container;
@@ -73,14 +73,19 @@
 
 .link-phone__number {
   grid-area: link-phone-number;
+
   margin-left: -2px;
+
   font-size: 17px;
   font-weight: 700;
 }
 .link-phone__label {
   grid-area: link-phone-label;
 
+  margin-left: -2px;
+
   font-size: 14px;
+  line-height: 23px;
   letter-spacing: 0.28em;
 }
 
@@ -88,14 +93,23 @@
   @extend %link-button;
 
   &.nav-list__link-button_color_light-blue {
-    @include options(172px, 34px, $light-blue_color, 15px);
+    @include options(172px, 34px, 15px);
   }
   &.nav-list__link-button_color_blue {
-    @include options(148px, 34px, $blue_color, 15px);
+    @include options(148px, 34px, 15px);
+    background-color: $dark_button_color;
   }
 }
 
-@media (max-width: 1180px) {
+.burger {
+  display: none;
+  width: 34px;
+  height: 34px;
+
+  background: url('../assets/icons/burger.svg') center/ contain no-repeat;
+}
+
+@media screen and (max-width: 1180px) {
   .header-container {
     padding: 10px 0;
   }
@@ -120,9 +134,45 @@
     }
   }
 }
-@media (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
   .nav-list {
     flex: 1 1 auto;
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .nav-list__item {
+    margin-right: 0px;
+
+    &:not(:nth-child(4)) {
+      display: none;
+    }
+  }
+  .link-phone {
+    width: 150px;
+    margin-right: 15px;
+  }
+  .link-phone__number {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .link-phone__label {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .link-phone__icon {
+    width: 29px;
+    height: 29px;
   }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
@@ -45,6 +45,8 @@
           </li>
         </ul>
       </nav>
+
+      <div class="burger"></div>
     </div>
   </header>
 
@@ -128,7 +130,9 @@
           Все тарифы
         </a>
       </div>
+    </section>
 
+    <section class="additional">
       <div class="additional-services additional-services_help">
         <h3 class="additional-services__title">Трудно выбрать? Мы поможем! </h3>
         <form class="additional-services__form">
@@ -145,8 +149,11 @@
       <div class="additional-services">
         <h3 class="additional-services__title">Проверить возможность подключения по вашему адресу</h3>
         <form class="additional-services__form">
-          <div class="additional-services__icon_address"></div>
-          <input class="additional-services__input additional-services__input_street" type="text" placeholder="Улица">
+          <label class="additional-services__label_street" for="">
+            <span class="additional-services__icon_street"></span>
+            <input class="additional-services__input additional-services__input_street" type="text" placeholder="Улица">
+          </label>
+
           <input class="additional-services__input additional-services__input-house" type="text" placeholder="Дом">
           <button class="additional-services__btn" type="submit">Проверить</button>
         </form>
@@ -219,6 +226,12 @@
           </div>
         </div>
 
+        <div class="news-slider">
+          <div class="news-slider__item active"></div>
+          <div class="news-slider__item"></div>
+          <div class="news-slider__item"></div>
+        </div>
+
         <a class="news__link-button" href="#!">
           Все новости
         </a>
@@ -259,17 +272,19 @@
         <div class="partners-slider">
           <div class="partners-slider__arrow partners-slider__arrow_left"></div>
 
-          <div class="partners-slider__item partners-slider__item_smotroshka">
-            <img src="./assets/images/smotroshka.png" alt="смотрешка">
-          </div>
-          <div class="partners-slider__item partners-slider__item_sberbank">
-            <img src="./assets/images/sberbank.png" alt="сбербанк">
-          </div>
-          <div class="partners-slider__item partners-slider__item_on-life">
-            <img src="./assets/images/on_life.png" alt="on life">
-          </div>
-          <div class="partners-slider__item partners-slider__play-room">
-            <img src="./assets/images/play_room.png" alt="play room">
+          <div class="partners-slider__wrap">
+            <div class="partners-slider__item partners-slider__item_smotroshka">
+              <img src="./assets/images/smotroshka.png" alt="смотрешка">
+            </div>
+            <div class="partners-slider__item partners-slider__item_sberbank">
+              <img src="./assets/images/sberbank.png" alt="сбербанк">
+            </div>
+            <div class="partners-slider__item partners-slider__item_on-life">
+              <img src="./assets/images/on_life.png" alt="on life">
+            </div>
+            <div class="partners-slider__item partners-slider__play-room">
+              <img src="./assets/images/play_room.png" alt="play room">
+            </div>
           </div>
 
           <div class="partners-slider__arrow partners-slider__arrow_right"></div>
