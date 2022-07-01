@@ -176,3 +176,20 @@
     height: 29px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .header-container {
+    padding: 12px 0px 14px 0;
+  }
+  .burger {
+    margin-top: 9px;
+  }
+
+  .link-phone {
+    margin: 13px 26px 0 0px;
+  }
+  .link-phone__icon {
+    width: 29px;
+    height: 36px;
+  }
+}

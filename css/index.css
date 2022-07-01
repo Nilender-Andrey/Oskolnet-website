@@ -403,6 +403,24 @@ body {
     height: 29px;
   }
 }
+@media screen and (max-width: 360px) {
+  .header-container {
+    padding: 12px 0px 14px 0;
+  }
+
+  .burger {
+    margin-top: 9px;
+  }
+
+  .link-phone {
+    margin: 13px 26px 0 0px;
+  }
+
+  .link-phone__icon {
+    width: 29px;
+    height: 36px;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -721,6 +739,53 @@ body {
     line-height: 140%;
   }
 }
+@media screen and (max-width: 360px) {
+  .footer-container {
+    padding: 20px 0 50px;
+    grid-template-rows: 91px 278px 104px 135px;
+  }
+
+  .footer-btn__link-button.footer-btn__link-button_color_light-blue, .footer-btn__link-button.footer-btn__link-button_color_blue {
+    width: 320px;
+    height: 65px;
+  }
+
+  .footer-nav {
+    padding-top: 3px;
+    row-gap: 10px;
+  }
+
+  .footer-contacts {
+    padding: 16px 0 9px 0;
+    margin: 0 auto 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: none;
+    border-right: none;
+  }
+
+  .footer-contacts__icon {
+    margin-right: 9px;
+  }
+
+  .contacts-phone__number {
+    font-size: 18px;
+  }
+
+  .contacts-phone__icon {
+    width: 19px;
+    height: 19px;
+    margin: -5px 0 0 4px;
+  }
+
+  .footer-info {
+    padding: 26px 0 0 0;
+    gap: 15px;
+  }
+
+  .footer-info__info {
+    font-size: 12px;
+  }
+}
 /* ******************************** */
 * {
   box-sizing: border-box;
@@ -920,6 +985,31 @@ body {
 
   .showcase-slider {
     bottom: 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .showcase {
+    padding: 22px 20px 22px;
+  }
+
+  .showcase__title {
+    margin-bottom: 7px;
+  }
+
+  .showcase__text {
+    margin-bottom: 20px;
+  }
+
+  .showcase__img {
+    top: 26%;
+    left: 0px;
+    width: 306px;
+    height: 387px;
+  }
+
+  .showcase-slider {
+    bottom: 20px;
+    right: calc(50% - 39px);
   }
 }
 /* ********************************* */
@@ -1207,6 +1297,36 @@ Section tariffs
     padding: 30px 0 30px;
   }
 }
+@media screen and (max-width: 360px) {
+  .tariffs {
+    padding: 40px 0 0;
+  }
+
+  .tariffs__title {
+    margin-bottom: 10px;
+  }
+
+  .tariffs-slider {
+    padding: 30px 0 39px;
+  }
+
+  .tariffs__link-button {
+    width: 320px;
+  }
+
+  .options {
+    gap: 23px;
+  }
+
+  .tariffs-container {
+    padding-bottom: 15px;
+    margin-bottom: 41px;
+  }
+
+  .additional-services {
+    padding: 25px 20px 2px 20px;
+  }
+}
 /* *********************************** */
 .additional {
   padding: 0px 20px 32px;
@@ -1445,6 +1565,69 @@ Section tariffs
     justify-content: center;
   }
 }
+@media screen and (max-width: 360px) {
+  .additional {
+    padding: 0px 20px 9px;
+  }
+
+  .additional-services {
+    padding: 25px 20px 16px 20px;
+    margin: 0 auto 31px auto;
+  }
+
+  .additional-services__title {
+    margin: 0 0 16px 0;
+  }
+
+  .additional-services__form {
+    gap: 11px;
+    margin: 0 0 0px 0;
+  }
+
+  .additional-services__input {
+    padding: 4px 0 0 10px;
+  }
+  .additional-services__input::-moz-placeholder {
+    font-size: 16px;
+  }
+  .additional-services__input:-ms-input-placeholder {
+    font-size: 16px;
+  }
+  .additional-services__input::placeholder {
+    font-size: 16px;
+  }
+
+  .additional-services__btn {
+    width: 276px;
+  }
+
+  .additional-services:nth-child(2) {
+    padding: 25px 20px 0 20px;
+    margin: 0 auto 28px auto;
+  }
+  .additional-services:nth-child(2) .additional-services__title {
+    text-align: left;
+    margin: 0 0 5px 0;
+  }
+  .additional-services:nth-child(2) .additional-services__input-house {
+    max-width: 100%;
+  }
+  .additional-services:nth-child(2) .additional-services__form {
+    min-height: 197px;
+  }
+
+  .additional-services__input_street {
+    padding: 0px 0 0 40px;
+  }
+
+  .additional-services__speed-test {
+    min-height: 138px;
+    padding: 25px 20px 23px 20px;
+  }
+  .additional-services__speed-test .additional-services__title {
+    margin: 0 0 0px 0;
+  }
+}
 /* **************************************** */
 /** about-company **/
 .about-company {
@@ -1547,6 +1730,19 @@ Section tariffs
   .about-company__text {
     font-size: 14px;
     line-height: 140%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .about-company__container {
+    padding: 40px 0 41px;
+  }
+
+  .about-company__text p:first-child {
+    margin-bottom: 21px;
+  }
+
+  .about-company__link-button {
+    width: 319px;
   }
 }
 /* news */
@@ -1683,6 +1879,15 @@ Section tariffs
     display: flex;
   }
 }
+@media screen and (max-width: 360px) {
+  .news__title {
+    margin-bottom: 14px;
+  }
+
+  .news__link-button {
+    width: 319px;
+  }
+}
 /* *********************************** */
 /* documents */
 .documents {
@@ -1782,6 +1987,10 @@ Section tariffs
   }
 }
 @media screen and (max-width: 425px) {
+  .documents {
+    min-height: 452px;
+  }
+
   .documents__container {
     padding: 40px 0 40px 0;
   }
@@ -1793,7 +2002,7 @@ Section tariffs
   }
 
   .documents-list {
-    margin-bottom: 20px;
+    margin-bottom: 29px;
   }
 
   .documents__icon {
@@ -1805,6 +2014,10 @@ Section tariffs
   .documents__name {
     font-size: 14px;
     line-height: 26px;
+  }
+
+  .documents__link-button {
+    width: 319px;
   }
 }
 /* *********************************** */
@@ -1846,12 +2059,12 @@ Section tariffs
 }
 .partners-slider__arrow.partners-slider__arrow_left {
   left: 0;
-  background: url("../assets/icons/arrow_left.svg") center no-repeat;
+  background: url("../assets/icons/arrow_left.svg") center/contain no-repeat;
   margin-right: 10px;
 }
 .partners-slider__arrow.partners-slider__arrow_right {
   right: 0;
-  background: url("../assets/icons/arrow_right.svg") center no-repeat;
+  background: url("../assets/icons/arrow_right.svg") center/contain no-repeat;
   margin-left: 10px;
 }
 
@@ -1915,8 +2128,39 @@ Section tariffs
   }
 }
 @media screen and (max-width: 425px) {
+  .partners {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+
+  .partners__container {
+    padding: 39px 0 3px 0;
+  }
+
   .partners-slider__item {
     margin-right: 50px;
+  }
+
+  .partners__title {
+    margin-bottom: 15px;
+    font-size: 25px;
+    line-height: 130%;
+  }
+
+  .partners-slider-control {
+    padding: 20px 0 45px;
+  }
+
+  .partners-slider__arrow {
+    width: 30px;
+    height: 37px;
+  }
+  .partners-slider__arrow.partners-slider__arrow_left {
+    left: 20px;
+  }
+  .partners-slider__arrow.partners-slider__arrow_right {
+    right: 20px;
   }
 }
 /* ******************************** */
